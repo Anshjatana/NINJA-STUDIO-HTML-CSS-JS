@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/path/to/font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jrry0S8Cscw62/Hqfo0OH2Q4Zz4M8W/WPKaK/+Ri0MLy5vAWl8WwBRE/mhUOjKZ5/svUkiWQh5SB6UjKY6/7vA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ninja studio</title>
+  </head>
+
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <div class="logo">
+          <a class="navbar-logo" href="#"
+            ><img
+              src="https://music-player-coding-ninjas.vercel.app/logo.png"
+              alt="logo"
+          /></a>
+          <div class="nav-item fav">Favourites</div>
+        </div>
+        <div class="searchbox-container">
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="search" placeholder="Search..." />
+          </div>
+          <i class="fa-solid fa-bell"></i>
+              <!-- style="color: white; width: 1.5rem; margin-right: 1.7rem;" -->
+          <img
+            class="profile-photo"
+            src="https://i.pinimg.com/736x/56/63/f7/5663f705f5484e8c26117e7955000063--mens-hairstyles--up-hairstyles.jpg"
+          />
+        </div>
+      </header>
+      <div class="responsive">
+        <main style="margin-top: -2rem;">
+          <div class="poster">
+            <img
+              src="https://static.toiimg.com/thumb/msid-55496714,imgsize-80553,width-800,height-600,resizemode-75/55496714.jpg"
+              alt=""
+            />
+            <div>
+              <span><h4>Coldplay</h4></span>
+              <p id="followers">841 followers</p>
+              <h5>British brand</h5>
+              <h6>
+                Coldplay is the british music brand Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Minus, modi nam? Sint sit adipisci
+                tempora nulla sunt eligendi, provident recusandae?
+              </h6>
+              <div class="play">
+                <button>Play all</button>
+                <a href="#">Follow</a>
+                <h6>247 Tracks|128 albums</h6>
+              </div>
+            </div>
+          </div>
+          <div class="queue-element-container">
+            <div class="queue-element">
+              <div class="song-img-container">
+                <p class="queue-number">01</p>
+                <div class="img-container ">
+                  <img
+                    src="https://music-player-coding-ninjas.vercel.app/assets/queue/kissmemore.jpg"
+                    alt="img"
+                    class="queue-song-img"
+                  />
+                  
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Kiss me more</p>
+                  <p class="queue-artist-name">Doja cat</p>
+                </div>
+              </div>
+              <span class="nav-link">
+                <button>
+                  <i class="fa-sharp fa-regular fa-heart"></i>
+                  <i  id="0" class="fa-solid fa-play songItemPlay"></i>
+                </button>
+              </span>
+            </div>
+
+            <div class="queue-element">
+              <div class="song-img-container">
+                <p class="queue-number">02</p>
+                <div class="img-container">
+                  <img
+                    src="https://music-player-coding-ninjas.vercel.app/assets/queue/peaches.jpg"
+                    alt="img"
+                    class="queue-song-img"
+                  />
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Peaches</p>
+                  <p class="queue-artist-name">Justin bieber</p>
+                </div>
+              </div>
+              <span class="nav-link">
+                <button>
+                  <i class="fa-sharp fa-regular fa-heart"></i>
+                  <i id="1" class="fa-solid songItemPlay fa-play"></i>
+                </button>
+              </span>
+            </div>
+            <div class="queue-element">
+              <div class="song-img-container">
+                <p class="queue-number">03</p>
+                <div class="img-container">
+                  <img
+                    src="https://music-player-coding-ninjas.vercel.app/assets/queue/cheapthrills.jpg"
+                    alt="img"
+                    class="queue-song-img"
+                  />
+                  
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Cheap thrills</p>
+                  <p class="queue-artist-name">Sia</p>
+                </div>
+              </div>
+              <span class="nav-link">
+                <button>
+                  <i class="fa-sharp fa-regular fa-heart"></i>
+                  <i id="2" class="fa-solid fa-play songItemPlay"></i>
+                </button>
+              </span>
+            </div>
+            <div class="queue-element">
+              <div class="song-img-container">
+                <p class="queue-number">04</p>
+                <div class="img-container">
+                  <img
+                    src="https://music-player-coding-ninjas.vercel.app/assets/queue/we'regood.jpg"
+                    alt="img"
+                    class="queue-song-img"
+                  />
+                  
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">We're good</p>
+                  <p class="queue-artist-name">Dua lipa</p>
+                </div>
+              </div>
+              <span class="nav-link">
+                <button>
+                  <i class="fa-sharp fa-regular fa-heart"></i>
+                  <i id="3" class="fa-solid fa-play songItemPlay"></i>
+                </button>
+              </span>
+            </div>
+            <div class="queue-element">
+              <div class="song-img-container">
+                <p class="queue-number">05</p>
+                <div class="img-container">
+                  <img
+                    src="https://music-player-coding-ninjas.vercel.app/assets/queue/taylorswift.jpg"
+                    alt="img"
+                    class="queue-song-img"
+                  />
+                  
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">Blankspace</p>
+                  <p class="queue-artist-name">Taylor swift</p>
+                </div>
+              </div>
+              <span class="nav-link">
+                <button>
+                  <i class="fa-sharp fa-regular fa-heart"></i>
+                  <i id="4" class="fa-solid fa-play songItemPlay"></i>
+                </button>
+              </span>
+            </div>
+            <div class="queue-element">
+              <div class="song-img-container">
+                <p class="queue-number">06</p>
+                <div class="img-container">
+                  <img
+                    src="https://music-player-coding-ninjas.vercel.app/assets/queue/7rings.jpg"
+                    alt="img"
+                    class="queue-song-img"
+                  />
+                  
+                </div>
+                <div class="song-and-artist-container">
+                  <p class="queue-song-name">7 Rings</p>
+                  <p class="queue-artist-name">Ariana Grande</p>
+                </div>
+              </div>
+              <span class="nav-link">
+                <button>
+                  <i class="fa-sharp fa-regular fa-heart"></i>
+                  <i id="5" class="fa-solid fa-play songItemPlay"></i>
+                </button>
+              </span>
+            </div>
+          </div>
+        </main>
+        <div class="aside-container">
+          <div class="aside-section" id="aside">
+            <div class="section-header">
+              <h3 id="section-heading">Similar Artists</h3>
+              <div class="aside-btn">
+                View all
+              </div>
+            </div>
+            <div class="aside-elements-container">
+              <div class="aside-element">
+                <div class="song-img-container">
+                  <div class="song-img">
+                    <img
+                      src="https://music-player-coding-ninjas.vercel.app/assets/queue/good4u.jpg"
+                      alt="img"
+                      id="song-img"
+                    />
+                  </div>
+                  <div
+                    class="song-artist-container"
+                    style="margin-bottom: 2rem;"
+                  >
+                    <p class="song-name">Good 4 u</p>
+                    <p class="artist-name">Olivia Rodrigo</p>
+                  </div>
+                </div>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </div>
+              <div class="aside-element">
+                <div class="song-img-container">
+                  <div class="song-img">
+                    <img
+                      src="https://music-player-coding-ninjas.vercel.app/assets/queue/taylorswift.jpg"
+                      alt="img"
+                      id="song-img"
+                    />
+                  </div>
+                  <div
+                    class="song-artist-container"
+                    style="margin-bottom: 2rem;"
+                  >
+                    <p class="song-name">Blankspace</p>
+                    <p class="artist-name">Taylor Swift</p>
+                  </div>
+                </div>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </div>
+              <div class="aside-element">
+                <div class="song-img-container">
+                  <div class="song-img">
+                    <img
+                      src="https://music-player-coding-ninjas.vercel.app/assets/queue/cheapthrills.jpg"
+                      alt="img"
+                      id="song-img"
+                    />
+                  </div>
+                  <div
+                    class="song-artist-container"
+                    style="margin-bottom: 2rem;"
+                  >
+                    <p class="song-name">Cheap thrills</p>
+                    <p class="artist-name">Sia</p>
+                  </div>
+                </div>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="aside-section" id="aside">
+            <div class="section-header">
+              <h3 id="section-heading">Recently Played</h3>
+              <div class="aside-btn">
+                View all
+              </div>
+            </div>
+            <div class="aside-elements-container">
+              <div class="aside-element">
+                <div class="song-img-container">
+                  <div class="song-img">
+                    <img
+                      src="https://music-player-coding-ninjas.vercel.app/assets/queue/7rings.jpg"
+                      alt="img"
+                      id="song-img"
+                    />
+                  </div>
+                  <div
+                    class="song-artist-container"
+                    style="margin-bottom: 2rem;"
+                  >
+                    <p class="song-name">7 rings</p>
+                    <p class="artist-name">Ariana Grande</p>
+                  </div>
+                </div>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </div>
+              <div class="aside-element">
+                <div class="song-img-container">
+                  <div class="song-img">
+                    <img
+                      src="https://music-player-coding-ninjas.vercel.app/assets/queue/peaches.jpg"
+                      alt="img"
+                      id="song-img"
+                    />
+                  </div>
+                  <div
+                    class="song-artist-container"
+                    style="margin-bottom: 2rem;"
+                  >
+                    <p class="song-name">Peaches</p>
+                    <p class="artist-name">Justin Bieber</p>
+                  </div>
+                </div>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </div>
+              <div class="aside-element">
+                <div class="song-img-container">
+                  <div class="song-img">
+                    <img
+                      src="https://music-player-coding-ninjas.vercel.app/assets/queue/attention.jpg"
+                      alt="img"
+                      id="song-img"
+                    />
+                  </div>
+                  <div
+                    class="song-artist-container"
+                    style="margin-bottom: 2rem;"
+                  >
+                    <p class="song-name">Attention</p>
+                    <p class="artist-name">Charlie Puth</p>
+                  </div>
+                </div>
+                <i class="fa-sharp fa-regular fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <!-- Song thumbnail ,title,singer -->
+        <div id="footer-song-info">
+          <div id="footer-song-img "></div>
+          <div id="songInfo">
+            <span  id="masterSongName">Kiss me more</span>
+            <span id="masterArtistName">Doja Cat</span>
+          </div>
+          <div style="display: flex;">
+            <i class="fa-sharp fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <!-- Music player -->
+        <div class="player">
+          <div class="player-control">
+            <div id="play-buttons">
+             
+              <i id="previous" class="fa-solid fa-backward"></i>
+              <i class="fa-solid fa-play" id="masterPlay"></i>
+              <i id="next" class="fa-solid fa-forward"></i>
+              
+            </div>
+            
+          </div>
+          <div id="player-slider-container" style="width: 34rem;">
+            <div class="slider" style="color: white;">1:39</div>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              style="width: 23rem;"
+              id="myProgressBar"
+            />
+            <div class="slider" style="color: white;">4:44</div>
+          </div>
+        </div>
+        <!-- volume section -->
+        <div class="player-extras">
+          <div>
+            <i class="fa-solid fa-list-ul"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+          </div>
+          <div class="volume-container">
+            <i class="fa-solid fa-volume-high"></i>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              class="slider"
+              id="volume-slider"
+            />
+          </div>
+          <div>
+            <i class="fa-solid fa-expand"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://kit.fontawesome.com/d615b0ab0b.js" crossorigin="anonymous"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</html>
